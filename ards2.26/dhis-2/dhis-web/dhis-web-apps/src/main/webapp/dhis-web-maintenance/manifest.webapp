@@ -1,0 +1,20 @@
+{
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": ".."
+    }
+  },
+  "appType": "APP",
+  "name": "Maintenance app",
+  "version": "26.0.36",
+  "description": "DHIS2 Maintenance app",
+  "icons": {
+    "48": "icon.png"
+  },
+  "developer": {
+    "name": "Mark Polak"
+  },
+  "manifest_generated_at": "Mon Mar 06 2017 16:18:07 GMT+0000 (UTC)"
+}

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ards2.26.iml" filepath="$PROJECT_DIR$/.idea/ards2.26.iml" />
+
+      <module fileurl="file://$PROJECT_DIR$/.idea/ards2.26-webportal.iml" filepath="$PROJECT_DIR$/.idea/ards2.26-webportal.iml" />
     </modules>
   </component>
 </project>
