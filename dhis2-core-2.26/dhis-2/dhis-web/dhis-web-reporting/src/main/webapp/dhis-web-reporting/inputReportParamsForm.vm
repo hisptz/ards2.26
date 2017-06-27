@@ -1,0 +1,179 @@
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	#if( !$!reportParams.isSet() )
+	viewReport( '' );
+	#end
+
+	#if ( $!reportParams.isOrganisationUnitSet() )
+	selectionTreeSelection.setMultipleSelectionAllowed( false );
+	selectionTree.clearSelectedOrganisationUnitsAndBuildTree();
+	#end
+    var params={};
+    window.location.search
+            .replace(/[?&]+([^=&]+)=([^&]*)/gi, function(str,key,value) {
+                        params[key] = value;
+                    }
+            );
+    $.get("../api/reports/"+params.uid+".json", function( data ) {
+        if(data.relativePeriods.thisFinancialYear){
+
+            var date = new Date();
+            var periods = [];
+            for(var i = date.getFullYear();i >= 2012;i--){
+                periods.push({name:"July " +  i + " - June " + (i + 1),value:i + "July"});
+            }
+            $("#reportingPeriod").empty();
+            for(var key in periods){
+                var period = periods[key];
+                console.log(period);
+                $("#reportingPeriod").append($("<option></option>").attr("value", period.value).text(period.name));
+            }
+        }else if(data.relativePeriods.thisQuarter){
+            var periods = [];
+            var periods1 = [];
+            var periods2 = [];
+            var periods3 = [];
+            var periods4 = [];
+            var currentPeriodOffset = 0
+            var currentYearPeriod = dhis2.period.generator.generateReversedPeriods("Quarterly", currentPeriodOffset);
+            var lastYearPeriod = dhis2.period.generator.generateReversedPeriods("Quarterly", currentPeriodOffset -1);
+            var lastYearPeriodprev = dhis2.period.generator.generateReversedPeriods("Quarterly", currentPeriodOffset -2);
+            var lastYearPeriodprev1 = dhis2.period.generator.generateReversedPeriods("Quarterly", currentPeriodOffset -3);
+            var lastYearPeriodprev2 = dhis2.period.generator.generateReversedPeriods("Quarterly", currentPeriodOffset -4);
+            currentYearPeriod.forEach(function(period,index){
+                if(index >= lastYearPeriod.length/2){
+                    periods.push(period);
+                }
+            });
+
+            lastYearPeriod.forEach(function(period,index){
+                periods1.push(period);
+            });
+            lastYearPeriodprev.forEach(function(period,index){
+                periods2.push(period);
+            });
+            lastYearPeriodprev1.forEach(function(period,index){
+                periods3.push(period);
+            });
+            lastYearPeriodprev2.forEach(function(period,index){
+                periods4.push(period);
+            });
+            var periodCombined=periods.concat(periods1,periods2,periods3,periods4);
+            $("#reportingPeriod").empty();
+            for(var key in periodCombined){
+                var period = periodCombined[key];
+                $("#reportingPeriod").append($("<option></option>").attr("value", period.iso).text(period.name));
+            }
+        }else if(data.relativePeriods.thisMonth){
+            var periods = [];
+            var periods1 = [];
+            var periods2 = [];
+            var periods3 = [];
+            var periods4 = [];
+            var currentPeriodOffset = 0
+            var currentYearPeriod = dhis2.period.generator.generateReversedPeriods("Monthly", currentPeriodOffset);
+            var lastYearPeriod = dhis2.period.generator.generateReversedPeriods("Monthly", currentPeriodOffset -1);
+            var lastYearPeriodprev = dhis2.period.generator.generateReversedPeriods("Monthly", currentPeriodOffset -2);
+            var lastYearPeriodprev1 = dhis2.period.generator.generateReversedPeriods("Monthly", currentPeriodOffset -3);
+            var lastYearPeriodprev2 = dhis2.period.generator.generateReversedPeriods("Monthly", currentPeriodOffset -4);
+            currentYearPeriod.forEach(function(period,index){
+                if(index >= lastYearPeriod.length/2){
+                    periods.push(period);
+                }
+            });
+            lastYearPeriod.forEach(function(period,index){
+
+                periods1.push(period);
+            });
+            lastYearPeriodprev.forEach(function(period,index){
+
+                periods2.push(period);
+            });
+            lastYearPeriodprev1.forEach(function(period,index){
+
+                periods3.push(period);
+            });
+            lastYearPeriodprev2.forEach(function(period,index){
+
+                periods4.push(period);
+            });
+            var periodCombined=periods.concat(periods1,periods2,periods3,periods4);
+            $("#reportingPeriod").empty();
+            for(var key in periodCombined){
+                var period = periodCombined[key];
+                $("#reportingPeriod").append($("<option></option>").attr("value", period.iso).text(period.name));
+            }
+        }
+    });
+});
+
+var i18n_process_completed = '$encoder.jsEscape( $i18n.getString( "process_completed" ), "'")';
+var i18n_please_select_unit = '$encoder.jsEscape( $i18n.getString( "select_organisation_unit" ), "'")';
+</script>
+
+<h3>$i18n.getString( "report_table_parameters" )</h3>
+
+<input type="hidden" id="uid" name="uid" value="$!encoder.htmlEncode( $!{uid} )" />
+<input type="hidden" id="mode" name="mode" value="$!encoder.htmlEncode( $!{mode} )" />
+<input type="hidden" id="type" name="type" value="$!encoder.htmlEncode( $!{type} )" />
+
+<table>
+	
+    <!-- Reporting month -->
+    
+    #if ( $!reportParams.isParamReportingMonth() )
+    
+    <tr>
+        <th>$i18n.getString( "reporting_period" )</th>
+    </tr>
+    <tr>
+        <td>
+            <select id="reportingPeriod" name="reportingPeriod" style="width:325px">               
+                #foreach ( $period in $periods )
+                    <option value="${period.uid}">${period.displayName}</option>
+                #end
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4" style="height:10px"></td>
+    </tr>
+    
+    #end
+    
+    <!-- OrganisationUnit -->
+    
+    #if ( $!reportParams.isOrganisationUnitSet() )
+        
+	<tr>
+        <th>$i18n.getString( "organisation_unit" )</th>
+    </tr>
+    <tr>
+	    <td>
+			<div id="selectionTree" style="width:325px; height:210px"></div>
+	    </td>
+	</tr>
+    <tr>
+        <td colspan="4" style="height:10px"></td>
+    </tr>
+    
+    #end
+    
+    <!-- Submit -->
+    
+    <tr>
+        <td>
+    	#if( $!reportParams.isSet() )
+        	#if ( $mode == "table" )
+            <input type="button" value="$i18n.getString( 'get_report' )" onclick="viewReport( '' )" style="width:140px" />
+            <input type="button" value="$i18n.getString( 'back' )" onclick="javascript:window.location.href='displayManageTableForm.action'" style="width:140px" />
+        	#elseif ( $mode == "report" )
+            <input type="button" value="$i18n.getString( 'get_report' )" onclick="viewReport( 'pdf' )" style="width:140px" />
+            <input type="button" value="$i18n.getString( 'back' )" onclick="javascript:window.location.href='displayViewReportForm.action'" style="width:140px" /><br>
+            <input type="button" value="$i18n.getString( 'get_report_as_xls' )" onclick="viewReport( 'xls' )" style="width:140px" />
+        	#end
+        #end
+        </td>
+    </tr>
+</table>
