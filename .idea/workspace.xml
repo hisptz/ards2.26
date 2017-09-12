@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-
-    <list default="true" id="38eb7987-4a69-4f57-89c7-9713d603345d" name="Default" comment="" />
+    <list default="true" id="38eb7987-4a69-4f57-89c7-9713d603345d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/jQuery/ui/css/redmond/jquery-ui.css" afterPath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/jQuery/ui/css/redmond/jquery-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm" afterPath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-dataentry/src/main/webapp/dhis-web-dataentry/javascript/form.js" afterPath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-dataentry/src/main/webapp/dhis-web-dataentry/javascript/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/resources/org/hisp/dhis/reporting/i18n_module.properties" afterPath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/resources/org/hisp/dhis/reporting/i18n_module.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm" afterPath="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm" />
+    </list>
     <ignored path="ards2.26-webportal.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,23 +25,116 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-
     <favorites_list name="ards2.26-webportal" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="0-6f8a229cea364b1d8604.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp/dhis-web-maintenance/0-6f8a229cea364b1d8604.js">
+      <file leaf-file-name="maintenanceForm.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/maintenanceForm.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="10" column="23828" selection-start-line="10" selection-start-column="23824" selection-end-line="10" selection-end-column="23828" />
-
+            <state vertical-scroll-proportion="0.0">
+              <caret line="74" column="112" selection-start-line="74" selection-start-column="112" selection-end-line="74" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addOptionForm.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/addOptionForm.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maintenance.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/javascript/maintenance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/main.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="130" column="89" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp/dhis-web-apps/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="77" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-apps/src/main/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="97" column="104" selection-start-line="97" selection-start-column="82" selection-end-line="97" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp/dhis-web-maintenance/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.777778">
+              <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-ui.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/jQuery/ui/css/redmond/jquery-ui.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4318182">
+              <caret line="809" column="23" selection-start-line="809" selection-start-column="23" selection-end-line="809" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+              <folding>
+                <marker date="1498726037580" expanded="true" signature="108442:108460" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/index.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -78,12 +177,14 @@
         <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-services/dhis-service-core/target/classes/i18n_global_lo.properties" />
         <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-services/dhis-service-core/src/main/resources/i18n_global.properties" />
         <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/index.vm" />
-        <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm" />
         <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-services/dhis-service-core/src/main/resources/help_content_pt_BR.xml" />
         <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/viewReportForm.vm" />
         <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/inputReportParamsForm.vm" />
+        <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm" />
+        <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm" />
         <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/resources/org/hisp/dhis/reporting/i18n_module.properties" />
-
+        <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-dataentry/src/main/webapp/dhis-web-dataentry/javascript/form.js" />
+        <option value="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/jQuery/ui/css/redmond/jquery-ui.css" />
       </list>
     </option>
   </component>
@@ -100,10 +201,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="186" />
-    <option name="y" value="271" />
-    <option name="width" value="2728" />
-    <option name="height" value="1327" />
+    <option name="x" value="-3035" />
+    <option name="y" value="183" />
+    <option name="width" value="3101" />
+    <option name="height" value="1698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -130,42 +231,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
+              <option name="myItemId" value="ards2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
+              <option name="myItemId" value="ards2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
+              <option name="myItemId" value="ards2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26" />
+              <option name="myItemId" value="dhis2-core-2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
+              <option name="myItemId" value="ards2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
+              <option name="myItemId" value="ards2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26" />
+              <option name="myItemId" value="dhis2-core-2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -175,39 +275,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-
-              <option name="myItemId" value="ards2.26-webportal" />
+              <option name="myItemId" value="ards2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ards2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26" />
+              <option name="myItemId" value="dhis2-core-2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -218,144 +294,20 @@
               <option name="myItemId" value="dhis-web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-web-apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
+              <option name="myItemId" value="ards2.26" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ards2.26" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-
-              <option name="myItemId" value="dhis-web-apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-
-              <option name="myItemId" value="dhis-web-apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-web-maintenance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dhis-web-apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ards2.26-webportal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,13 +316,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-portal/target/dhis" />
       <recent name="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp" />
       <recent name="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons" />
       <recent name="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/css" />
       <recent name="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security" />
-      <recent name="$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -690,7 +641,6 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-
       <module name="ards2.26-webportal" />
       <envs />
       <method />
@@ -819,7 +769,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-
       <changelist id="38eb7987-4a69-4f57-89c7-9713d603345d" name="Default" comment="" />
       <created>1489264524509</created>
       <option name="number" value="Default" />
@@ -829,15 +778,23 @@
       <workItem from="1489645518354" duration="1535000" />
       <workItem from="1490673362323" duration="1507000" />
       <workItem from="1490724233716" duration="6206000" />
+      <workItem from="1498597353594" duration="226000" />
+      <workItem from="1498725529111" duration="2628000" />
+      <workItem from="1498806164223" duration="3298000" />
+      <workItem from="1499258245684" duration="7453000" />
+      <workItem from="1500472933292" duration="4000" />
+      <workItem from="1500548204117" duration="3493000" />
+      <workItem from="1503409950357" duration="2000" />
+      <workItem from="1503951388792" duration="632000" />
+      <workItem from="1505195468841" duration="796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-
-    <option name="totallyTimeSpent" value="29462000" />
+    <option name="totallyTimeSpent" value="47994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="33" width="3111" height="1767" extended-state="6" />
+    <frame x="-3035" y="183" width="3101" height="1698" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -846,12 +803,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32965687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25079975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25844538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22671932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -862,9 +817,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -884,7 +837,299 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp/dhis-web-maintenance/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+          <folding>
+            <marker date="1498726037580" expanded="true" signature="108442:108460" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/index.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="79" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/resources/org/hisp/dhis/reporting/i18n_module.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/commons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1490887713000" expanded="true" signature="35999:36030" placeholder="..." />
+            <marker date="1490887713000" expanded="true" signature="36294:36325" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/maintenanceForm.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="112" selection-start-line="74" selection-start-column="112" selection-end-line="74" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/addOptionForm.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/javascript/maintenance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/main.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="76" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-dataentry/src/main/webapp/dhis-web-dataentry/javascript/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+          <folding>
+            <marker date="1498726037580" expanded="true" signature="108442:108460" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/index.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/resources/org/hisp/dhis/reporting/i18n_module.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/commons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1490887713000" expanded="true" signature="35999:36030" placeholder="..." />
+            <marker date="1490887713000" expanded="true" signature="36294:36325" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/maintenanceForm.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="112" selection-start-line="74" selection-start-column="112" selection-end-line="74" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/addOptionForm.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/javascript/maintenance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="79" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/resources/org/hisp/dhis/reporting/i18n_module.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/commons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1490887713000" expanded="true" signature="35999:36030" placeholder="..." />
+            <marker date="1490887713000" expanded="true" signature="36294:36325" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/maintenanceForm.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="112" selection-start-line="74" selection-start-column="112" selection-end-line="74" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/addOptionForm.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/javascript/maintenance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+          <folding>
+            <marker date="1498726037580" expanded="true" signature="108442:108460" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/index.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="79" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/resources/org/hisp/dhis/reporting/i18n_module.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+          <folding>
+            <marker date="1498726037580" expanded="true" signature="108442:108460" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/index.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/index.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp/dhis-web-maintenance/0-6f8a229cea364b1d8604.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/beans/spring-beans-2.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-504.1111">
@@ -894,9 +1139,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp/dhis-web-maintenance/0-6f8a229cea364b1d8604.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
+        <state vertical-scroll-proportion="0.7168508">
           <caret line="10" column="23828" selection-start-line="10" selection-start-column="23824" selection-end-line="10" selection-end-column="23828" />
-
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/menu.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0">
+          <caret line="4" column="79" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/resources/org/hisp/dhis/reporting/i18n_module.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-143.75676">
+          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/commons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1490887713000" expanded="true" signature="35999:36030" placeholder="..." />
+            <marker date="1490887713000" expanded="true" signature="36294:36325" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/addOptionForm.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/maintenanceForm.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="112" selection-start-line="74" selection-start-column="112" selection-end-line="74" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-maintenance/dhis-web-maintenance-dataadmin/src/main/webapp/dhis-web-maintenance-dataadmin/javascript/maintenance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-dataentry/src/main/webapp/dhis-web-dataentry/javascript/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8222591">
+          <caret line="2366" column="33" selection-start-line="2366" selection-start-column="33" selection-end-line="2366" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+          <folding>
+            <marker date="1498726037580" expanded="true" signature="108442:108460" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ards2.26/dhis-2/dhis-web/dhis-web-reporting/src/main/webapp/dhis-web-reporting/index.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/main.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="89" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp/dhis-web-apps/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-portal/target/dhis/dhis-web-settings/i18n/module/i18n_module_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-apps/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="104" selection-start-line="97" selection-start-column="82" selection-end-line="97" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-apps/src/main/webapp/dhis-web-maintenance/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.777778">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dhis2-core-2.26/dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/javascripts/jQuery/ui/css/redmond/jquery-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4318182">
+          <caret line="809" column="23" selection-start-line="809" selection-start-column="23" selection-end-line="809" selection-end-column="23" />
           <folding />
         </state>
       </provider>

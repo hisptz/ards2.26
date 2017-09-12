@@ -59,7 +59,7 @@
 
                         <div class="row">
                             #if ( $keyApplicationIntro )
-                                <span id="details" style="color:#459A47;">$!{keyApplicationIntro}</span>
+                               ## <span id="details" style="color:#459A47;">$!{keyApplicationIntro}</span>
                             #end
                         </div>
                     </div>
