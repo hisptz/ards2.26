@@ -65,6 +65,8 @@ public class UpdateUserProfileAction
 
     private Integer id;
 
+    private String firstName;
+    private String surname;
     private String email;
 
     private String phoneNumber;
@@ -108,6 +110,14 @@ public class UpdateUserProfileAction
         this.id = id;
     }
 
+    public void setFirstName( String firstName )
+    {
+        this.firstName = firstName;
+    }
+    public void setSurname( String surname )
+    {
+        this.surname = surname;
+    }
     public void setPhoneNumber( String phoneNumber )
     {
         this.phoneNumber = phoneNumber;
@@ -180,6 +190,8 @@ public class UpdateUserProfileAction
         // Prepare values
         // ---------------------------------------------------------------------
 
+        firstName = StringUtils.trimToNull( firstName );
+        surname = StringUtils.trimToNull( surname );
         email = StringUtils.trimToNull( email );
         phoneNumber = StringUtils.trimToNull( phoneNumber );
         introduction = StringUtils.trimToNull( introduction );
@@ -203,6 +215,8 @@ public class UpdateUserProfileAction
         // Update User
         // ---------------------------------------------------------------------
 
+        user.setFirstName( firstName );
+        user.setSurname( surname );
         user.setEmail( email );
         user.setPhoneNumber( phoneNumber );
         user.setIntroduction( introduction );
